@@ -89,7 +89,7 @@
             bool answer = false;
 
             // code here
-            int total = a / 2 + b / 2 + c / 2
+            int total = a / 2 + b / 2 + c / 2;
             if (total % 3 == 2) total++;
             int each = total / 3;
             answer = total % 3 == 0 && each >= 1 && each <= Math.Min(a, Math.Min(b, c));
